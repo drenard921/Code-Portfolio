@@ -1,0 +1,58 @@
+part a.
+
+R(A,B,C,D,E) with D -> B, CE -> A.
+
+1. Use D -> B (closure of D is D,B)
+
+Decompose R into R1(DB) and R2(ACED)
+
+R2 violates CE -> A so we need to further decompose R2.
+
+2. Use CE -> A (closure of CE is A,C,E)
+
+Decompose R12 into R21(ACE) and R22(DCE)
+
+Final relations: R1(DB), R2(ACED), R21(ACE), R22(DCE)
+
+
+part b.
+
+S(A,B,C,D,E) with A -> E, BC -> A, DE ->B.
+
+1. Use A -> E (closure of A is A,E)
+
+Decompose S into S1(AE) and S2(BCDA)
+
+S2 violates BC-> A so we need to further decompose S2.
+
+2. USE BC -> BCA (closure of BC is BCA)
+
+Decompose S2 into S21(BCA) and S22(DBC)
+
+Final relations: S1(AE), S21(BCA), S22(DBC)
+
+
+part c.
+
+Potential answer:
+A -> A
+B -> B
+C -> C 
+D -> D 
+
+part d.
+
+Potential answer:
+A -> AB
+B -> CB
+C -> ACD 
+D -> ABCD
+
+part e.
+
+Potential answer:
+A -> C 
+B -> C 
+C -> B
+D -> A 
+ABC -> D 

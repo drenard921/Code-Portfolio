@@ -1,0 +1,102 @@
+Dylan Renard 
+10/07/21
+CSE 414 
+Ryan Maas
+
+CSE 414: Section 2 A seQueL to SQL
+
+Agenda:
+1. Extra 'must know'
+     Keys, 3 valued logic, alias, filtering
+
+2. Joins
+
+3. Group By and Aggregation
+
+4. Demo
+
+5. Worksheet
+
+
+Primary Keys vs Foreign Keys:
+
+Primary Key - 
+    * unique identifier for a row 
+    * cannot be NULL
+    * Must be unique
+
+Foreign Key -
+    * Column(s) used to reference 
+      a primary key in another table
+    * can be NULL
+    * Does not need to be unique
+
+
+Look at section slides for code examples:
+
+
+SQL 3-Valued Logic:
+    SQL has 3-valued logic:
+        * FALSE = 0
+        * UNKNOWN = 0.5
+        * TRUE = 1
+
+SQL 3-Valued Logic (cont):
+
+<look at slides for context>
+
+
+Aliasing:
+    * Good style for renaming attribute operations to more intuitive labels
+    * Essential for self joins 
+    * You can alias without "AS" in the FROM clause 
+
+
+Filters: <look at code from quiz section slides 4 syntax> 
+    LIMIT number - limits the amount of tuples returned
+
+    DISTINCT - only returns unique values (eliminates duplicates)
+
+
+JOINS: (Ven diagram Joins useful on slide) 
+    Joins information from two tables together
+    * Inner vs. Outer - What's only in common betweeen 2 tables (Inner)
+                        vs
+                        What data from Db2 lines up with DB 1's columns (Outer) 
+    * Self Joins - important when dealing with hierarchal information
+
+    <Really good joins slide from quiz section slides>
+
+
+JOIN Semantics:
+
+* Think as "nested loops"/
+* Not the most efficient implentation on a large database! 
+  (We will talk about other ways to join later in the course)
+    * Hash Join (cool Joins)
+    * Sort-Merge Join (cool Joins)
+
+
+FWS (FROM, Where, Select):
+
+FWGHOS (FROM, WHERE, GROUP BY, HAVING, ORDER BY, SELECT):
+
+GROUPING and ORDERING: 
+* GROUP BY 
+* HAVING 
+* ORDER BY (default ASC/DESC)
+
+
+    GROUP BY (for each statement):
+    Careful When selecting:
+    * only select attributes in GROUP BY or aggregates
+    * SQLite will Guess (arbitrary pick a value)
+    
+
+
+
+
+
+
+
+
