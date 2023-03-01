@@ -3,12 +3,13 @@ Projects I've worked on during undergrad.
 
 ### History of Space Travel Interactive Article
 #### CSE 412 Intro to Data Visualization:
-Our final project using Vega-lite Javascript library to visualize the History of Space travel launches across the world.
+Our final project using Javascript visualization libraries and data cleaning to visualize the History of Space travel launches across the world.
 Won 1st place for best interactive visualization in a class of 100 University of Washington students.
+Relevant tools include Javascript and Vega Lite.
 
 Project link: https://observablehq.com/d/64c598e39086660a
 
-For course information check the website below: 
+For course information check the website: 
 https://docs.google.com/document/d/1qWT7kq1ian2l3WRQ-JNdrvI1IwZ9HocDV2_ZKVz2US4/edit?usp=sharing 
 
 
@@ -19,7 +20,7 @@ Includes an ER diagram project as well as a Vaccine Scheduler Application
 that opperates on a microsoft azure server.
 
 
-For course information check the website below: 
+For course information check the website: 
 https://sites.google.com/cs.washington.edu/cse-414-21au/ 
 
 ### Python projects
@@ -28,7 +29,7 @@ Python course introducing scientific computing concepts.
 Includes several matplotlib plots in jupyter notebooks as well as python programming.
 For quick access to view plots check out the writeup pdfs.
 
-For course information check the website below:
+For course information check the website:
 https://amath.washington.edu/courses/2023/winter/amath/301/a 
 
 
