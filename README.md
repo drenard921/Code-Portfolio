@@ -36,7 +36,7 @@ https://amath.washington.edu/courses/2023/winter/amath/301/a
 #### Animated login page:
 Learning how to build websites in my freetime here is a webpage I worked on that plays around with user input.
 
-#### Dance pad Javascript:
+#### Dancepad Javascript:
 This is a interactive webpage I built in my freetime.
 
 
