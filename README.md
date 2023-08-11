@@ -17,7 +17,7 @@ https://docs.google.com/document/d/1qWT7kq1ian2l3WRQ-JNdrvI1IwZ9HocDV2_ZKVz2US4/
 #### CSE 414 Intro to Database Systems: 
 An introduction to SQL, ER diagrams and database programming.
 Includes an ER diagram project as well as a Vaccine Scheduler Application
-that opperates on a microsoft azure server.
+that operates on a microsoft azure server.
 
 
 For course information check the website: 
